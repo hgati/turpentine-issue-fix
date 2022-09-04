@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cobay_Turpentine>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Nexcessnet_Turpentine/>
+            </depends>
+        </Cobay_Turpentine>
+    </modules>
+</config>

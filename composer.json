@@ -1,0 +1,14 @@
+{
+  "name": "hgati/turpentine",
+  "type": "magento-module",
+  "description": "Added some features on Magento Turpentine",
+  "keywords": ["magento turpentine"],
+  "homepage": "https://github.com/hgati/turpentine",
+  "license": "MIT",
+  "authors": [{ "name": "Dennis Lee", "email": "cobays@gmail.com", "homepage": "https://github.com/hgati", "role": "Magento 1.x Developer" }],
+
+  "require": {
+    "php": ">=7.0.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}

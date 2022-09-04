@@ -1,0 +1,9 @@
+<script type="text/javascript" language="JavaScript">
+new Ajax.Request('<?PHP echo Mage::getUrl('turpentineCookies');?>', {
+		onSuccess: function(transport) {
+			//do nothing
+			console.log('First Request Issue OK');
+		}
+	}
+);
+</script>

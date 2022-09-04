@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cobay_Turpentine>
+            <version>1.0.1</version>
+        </Cobay_Turpentine>
+    </modules>
+    <frontend>
+        <routers>
+            <cobay_turpentine>
+                <use>standard</use>
+                <args>
+                    <frontName>turpentineCookies</frontName>
+                    <module>Cobay_Turpentine</module>
+                </args>
+            </cobay_turpentine>
+        </routers>
+        <layout>
+            <updates>
+                <cobay_turpentine>
+                    <file>cobay/turpentine.xml</file>
+                </cobay_turpentine>
+            </updates>
+        </layout>
+    </frontend>
+</config>
