@@ -1,2 +1,2 @@
-# Cobay_Turpentine
-Fixed F.R.I (First Request Issue) for Magento Turpentine.
+# Turpentine Issue Fix.
+Fixed F.R.I (First Request Issue) of Magento Turpentine Extension
