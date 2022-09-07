@@ -3,7 +3,7 @@
   "type": "magento-module",
   "description": "Added some features on Magento Turpentine",
   "keywords": ["magento turpentine"],
-  "homepage": "https://github.com/hgati/turpentine",
+  "homepage": "https://github.com/hgati/turpentine-issue-fix",
   "license": "MIT",
   "authors": [{ "name": "Dennis Lee", "email": "cobays@gmail.com", "homepage": "https://github.com/hgati", "role": "Magento 1.x Developer" }],
 
