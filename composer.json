@@ -10,5 +10,14 @@
   "require": {
     "php": ">=7.0.0",
     "magento-hackathon/magento-composer-installer": "*"
-  }
+  },
+
+	"scripts": {
+		"post-package-install": [ 
+      "sed -i 's/{{generate_session}}/#{{generate_session}}/' app/code/community/Nexcessnet/Turpentine/misc/version-4.vcl"
+    ],
+    "post-package-uninstall": [
+      "sed -i 's/#{{generate_session}}/{{generate_session}}/' app/code/community/Nexcessnet/Turpentine/misc/version-4.vcl"
+    ]
+	}
 }
